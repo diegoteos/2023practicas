@@ -10,6 +10,10 @@ echo '<br/>';
 
 
 $frutas = array('manzana', 'mango', 'piña', 'aguacate', 'melon', 'uva');
+
+
+echo '<br/>';
+
 print_r($frutas);
 echo '<br/>';
 echo '<br/>';
@@ -25,7 +29,12 @@ for ($i = $contador - 1 ; $i >= 0; $i--) {
 }
 echo '<br/>';
 echo '<br/>';
-echo '<br/>';
 print_r($frutaRevertida);
 
+echo '<br/>';
+echo '<br/>';
 
+
+list($uno, $uno2, $uno3, $uno4, $uno5) = $frutaRevertida;
+
+echo "una $uno roja no es igual en sabor a un $uno2 amarillo";
