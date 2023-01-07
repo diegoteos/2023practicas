@@ -8,3 +8,4 @@ class Account
     public $email;
     public $password;
 }
+
