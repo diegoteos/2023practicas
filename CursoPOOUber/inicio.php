@@ -1,12 +1,12 @@
 <?php
 
-class ClaseSencilla
+class Person
 {
     // Declaración de una propiedad
-    public $var = 'un valor predeterminado';
+    public $name = "Juan Carlos";
 
     // Declaración de un método
-    public function mostrarVar() {
-        echo $this->var;
+    function walk() {
+        echo $this->name . ' Camina todos los dias';
     }
-}
+} 
