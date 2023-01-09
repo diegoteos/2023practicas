@@ -1,4 +1,6 @@
 <?php
+require_once('Account.php');
+
 class Car
 {
     public $id;
@@ -6,22 +8,12 @@ class Car
     public $driver;
     public $passenger;
 
-    private function getClassName()
-    {
-        return get_called_class();
-    }
-    public function hola()
-     {
-        return "Mi carro es $this->license con licencia {$this->getClassName()}";
-     }
-}
-
-class Carro extends Car
-{
-    public function __construct($license)
-    {
+    public function __construct($license, $driver){
         $this->license = $license;
+        $this->driver = $driver;
+    }
+
+    public function printDataCar(){
+        echo "Licencia: " . $this->license . " Driver: " . $this->driver;
     }
 }
-$carro = new Car;
-echo Car->license = "Licencia";
