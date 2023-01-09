@@ -6,12 +6,22 @@ class Car
     public $driver;
     public $passenger;
 
+    private function getClassName()
+    {
+        return get_called_class();
+    }
+    public function hola()
+     {
+        return "Mi carro es $this->license con licencia {$this->getClassName()}";
+     }
 }
-echo '<pre>'; 
-$carro1 = new Car();
-$carro1->id = 2;
-$carro1->license = 2;
-$carro1->driver = "jose jose";
-$carro1->passenger = 4;
-print_r($carro1);
 
+class Carro extends Car
+{
+    public function __construct($license)
+    {
+        $this->license = $license;
+    }
+}
+$carro = new Car;
+echo Car->license = "Licencia";
