@@ -1,7 +1,8 @@
 <?php
+
 require_once ('Cars.php');
 
-class UberX extends Car{
+class UberPool extends Car{
     public $brand;
     public $model;
 
@@ -10,4 +11,5 @@ class UberX extends Car{
         $this->brand = $brand;
         $this->model = $model;
     }
+
 }
