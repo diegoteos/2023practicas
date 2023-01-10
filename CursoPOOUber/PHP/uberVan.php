@@ -1,5 +1,5 @@
 <?php
-require_once dirname('car.php');
+require_once ('car.php');
 class UberVan extends Car
 {
     public $typeCarAccepted;
