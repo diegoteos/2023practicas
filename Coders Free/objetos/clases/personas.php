@@ -2,8 +2,8 @@
 
 class Persona
 {
-    public $nombre, $apellido, $edad;
-
+    public $nombre, $edad;
+    public $apellido1, $apellido2;
 
     public function setNombre($nombre)
     {
@@ -14,12 +14,28 @@ class Persona
     {
         return ucwords($this->nombre);
     }
+
+    public function setApellidos($apellido1, $apellido2){
+        $this->apellido1 = $apellido1;
+        $this->apellido2 = $apellido2;
+    }
+
+    public function getApellidos(){
+        return $this->apellido1 . "  " . $this->apellido2;
+    }
 }
 
 class Peruano extends Persona
 {
+    public $departamento, $ciudad;
 }
 
 class Chileno extends Persona
 {
+    public $comunidad, $region;
+
+    public function setApellidos($apellido1, $apellido2){
+        $this->apellido1 = $apellido2;
+        $this->apellido2 = $apellido1;
+    }
 }
