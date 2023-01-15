@@ -15,6 +15,7 @@ class User
     }
 }
 
+
 class Admin extends User {
     public function getName()
     {
