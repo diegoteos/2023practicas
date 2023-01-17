@@ -13,6 +13,7 @@ $se_hablo_de_bruno = true;
 </head>
 
 <body>
+    <p>pesima practica:</p>
     <?php
     if ($se_hablo_de_bruno) {
         echo "<b>Esta condicional es verdadera </b>";
@@ -22,7 +23,7 @@ $se_hablo_de_bruno = true;
     ?>
 
     <br>
-
+    <p>practica regular:</p>
     <?php
     if ($se_hablo_de_bruno) { ?>
         <b>Si se hablo</b>
@@ -31,7 +32,7 @@ $se_hablo_de_bruno = true;
     <?php } ?>
 
     <br>
-
+    <p>Buena practica:</p>
     <?php
     if ($se_hablo_de_bruno) : ?>
         <b>Si se hablo</b>
