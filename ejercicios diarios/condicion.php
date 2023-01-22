@@ -37,6 +37,9 @@
 </html>
 
 <?php
+if (!$_POST) {
+    echo "no existe post";
+}
 if (!empty($_POST['telefono']) xor !empty($_POST['unidad'])) {
 echo $_POST['telefono'];
 echo $_POST['unidad'];
