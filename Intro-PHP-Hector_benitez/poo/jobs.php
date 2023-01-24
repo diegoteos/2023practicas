@@ -1,7 +1,7 @@
 <?php
 
 
-require_once 'app/models/Job.php';
+require_once '../app/Models/Job.php';
 
 $job1 = new Job('PHP Developer', 'This is an awesome job!!!');
 $job1->months = 16;
