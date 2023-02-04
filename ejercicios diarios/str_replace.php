@@ -11,3 +11,5 @@ echo $dos;
 
 var_dump($saludo);
 
+print_r($saludo);
+
