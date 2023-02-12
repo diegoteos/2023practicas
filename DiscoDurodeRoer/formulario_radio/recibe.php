@@ -26,3 +26,5 @@ switch ($figura) {
 }
 
 $_SESSION['resultado'] = $resultado;
+
+header('Location: formulario.php');
