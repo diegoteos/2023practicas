@@ -1,41 +1,80 @@
-<!doctype html>
-<html lang="es">
-<!--
-  Plantilla inicial de Bootstrap 4
-  @author parzibyte
-  Visita: parzibyte.me/blog
--->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<html>
+	    <head>
+	        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	        <title>Google Maps Geoposicionamiento</title>
+	 
+	        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+ 
+	        <style>
+	 
+	        #map
+	        {
+	            width: 100%;
+	            height: 100%;
+	            border: 1px solid #d0d0d0;
+	        }
+	 
+	        </style>
+	 <script>
+	 function localize()
+		{
+		 	if (navigator.geolocation)
+			{
+                navigator.geolocation.getCurrentPosition(mapa,error);
+            }
+            else
+            {
+                alert('Tu navegador no soporta geolocalizacion.');
+            }
+		}		     
+		
+		function mapa(pos)
+		{
+			latitud = pos.coords.latitude;
+			longitud = pos.coords.longitude;
+			precision = pos.coords.accuracy;
+			var contenedor = document.getElementById("map");
+			var centro = new google.maps.LatLng(latitud,longitud);
+			alert (centro);
+			var propiedades =
+			{
+                zoom: 15,
+                center: centro,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map(contenedor, propiedades);
+			var marcador = new google.maps.Marker({
+                position: centro,
+                map: map,
+                title: "Tu posicion actual"
+            });
+		}
+		function error(errorCode)
+		{
+			if(errorCode.code == 1)
+				alert("No has permitido buscar tu localizacion")
+			else if (errorCode.code==2)
+				alert("Posicion no disponible")
+			else
+				alert("Ha ocurrido un error")
+		}
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Acceder a la ubicación del dispositivo con JavaScript">
-	<meta name="author" content="Parzibyte">
-	<title>Acceder a la ubicación del dispositivo con JavaScript</title>
-	<!-- Cargar el CSS de Boostrap-->
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	 crossorigin="anonymous">
-</head>
+        </script>	
+        <?php
+  $latitud =
+  "<script> document.write(latitud) </script>";
+  
 
-<body>
-	<!-- Termina la definición del menú -->
-	<main role="main" class="container">
-		<div class="row">
-			<!-- Aquí pon las col-x necesarias, comienza tu contenido, etcétera -->
-			<div class="col-12">
-				<h1>Acceder a la ubicación con JavaScript</h1>
-				<a href="//parzibyte.me/blog" target="_blank">By Parzibyte</a>
-				<br>
-				<strong>Latitud: </strong> <p id="latitud"></p>
-				<br>
-				<strong>Longitud: </strong> <p id="longitud"></p>
-				<br>
-				<a target="_blank" id="enlace" href="#">Abrir en Google Maps</a>
-			</div>
-		</div>
-	</main>
-	<script src="script.js">
-	</script>
-</body>
-
-</html>
+$longitud = "<script> document.write(longitud) </script>";
+$precision = "<script> document.write(precision) </script>";
+echo "las coordenadas geograficas son:  $latitud  $longitud  $precision";
+?>
+	    </head>
+	 
+	    <body onLoad="localize()">
+	        <h1>Google Maps Geoposicionamiento</h1>
+	            <div id="map" ></div>
+	    </body>
+	 
+	</html>
