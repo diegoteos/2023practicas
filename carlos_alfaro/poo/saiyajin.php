@@ -11,7 +11,7 @@ class Saiyajin
     // podemos tipar la respuesta de la funcion, agregando : y definiendo el tipo de dato
     public function Saludar(): string
     {
-        return "Hola soy " . $this->nombre;
+        return "Hola soy " . $this->nombre . $this->NivelDePelea();
     }
 
     public function NivelDePelea()
@@ -22,5 +22,8 @@ class Saiyajin
 
 $goku = new Saiyajin();
 // var_dump($goku);  muestra que es un objeto 
-echo $goku->NivelDePelea();
+echo $goku->Saludar();
+
+
+$vegueta = new Saiyajin();
 
