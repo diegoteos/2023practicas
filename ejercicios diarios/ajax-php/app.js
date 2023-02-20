@@ -15,6 +15,7 @@ $(function () {
                     <li>
                     ${task.placa}
                     ${task.id_registro}
+                    ${task.fecha}
                     </li>
                     `
                 })
