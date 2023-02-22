@@ -1,19 +1,16 @@
 <?php
 include_once 'encabezado.html';
 ?>
+
 <body>
 	<!--Preloader Start-->
 	<div id="preloader">
 		<div id="status">
-			<img src="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/images/header/logo.png"
-				alt="loader">
+			<img src="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/images/header/logo.png" alt="loader">
 		</div>
 	</div>
 	<!--About Wrapper Start-->
 	<div class="prt_about_wrapperd">
-		<div class="prt_close_wrapper">
-			<img src="images/header/down_arrow.png" alt="Close" class="prt_close">
-		</div>
 		<div class="container">
 			<div class="prt_about_info ">
 				<div class="row">
@@ -201,7 +198,7 @@ include_once 'encabezado.html';
 						<ul>
 
 							Redes sociales:
-							<li><a href="#"><i class="fa fa-facebook" ></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 
 						</ul>
@@ -212,8 +209,8 @@ include_once 'encabezado.html';
 	</div>
 
 	</div>
-<?php
-include 'js.html';
-?>
+	<?php
+	include 'js.html';
+	?>
 
-</html>
+	</html>
