@@ -3,12 +3,6 @@ include_once 'encabezado.html';
 ?>
 
 <body>
-	<!--Preloader Start-->
-	<div id="preloader">
-		<div id="status">
-			<img src="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/images/header/logo.png" alt="loader">
-		</div>
-	</div>
 	<!--About Wrapper Start-->
 	<div class="prt_about_wrapperd">
 		<div class="container">
