@@ -41,7 +41,7 @@ include_once 'encabezado.html';
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="prt_heading_wrapper">
 						<div class="prt_heading">
-							<h1>EDucation</h1>
+							<h1>Educación</h1>
 							<div class="typed-strings">
 								<p>learning</p>
 								<p>Reading</p>
