@@ -25,17 +25,22 @@ include_once 'encabezado.html';
 							</div>
 						</div>
 						<div class="prt_about_details">
-							<p>Mas de 15 años laborados en materia de seguridad pública con especialización en investigación criminal, he desarrollado conocimientos y experiencias especializadas en la gestión, gerencia y abordaje de fenómenos criminales.
-
+							<font face="Comic Sans MS,arial,verdana">
+								Allah es el Clemente y el Misericordioso, Su misericordia abarca todas las cosas y es la fuente de toda compasión y de toda misericordia que existe… Diego Teos, un servidor guatemalteco, Ingeniero en Sistemas de Información y Ciencias de la Computación, con la experiencia de mas de 16 años laborados en materia de seguridad pública con especialización en la investigación criminal lo cual ha dejado experiencias y conocimiento en la gestión, gerencia y abordaje de fenómenos criminales.
 								<br>
-								Promotor de la creación de la unidad de investigación de delitos informáticos en la Policía Nacional Civil en el año 2014.
-
 								<br>
-								Jefe de la Unidad de Investigación de Delitos Informáticos de la Policía Nacional Civil del 2015-2019.
+								Cofundador y jefe de la Sección de Investigación de Delitos Informáticos dentro de la Policía Nacional Civil en 2014-2019.
 								<br>
-								Especialización y certificación en la prevención e investigación de delitos informáticos y el cibercrimen, llevadas a cabo en Guatemala y otras en países como Corea del Sur, Estados Unidos, España, Holanda, México, El Salvador, entre otros. He logrado aportar a mi país mi experiencia y eficacia en materia de investigación criminal y en la persecución penal en delitos relacionados con el uso de las nuevas tecnologías, de los sistemas de la información y las comunicaciones.
-							</p>
-							<a href="#" class="prt_btn">Download Resume</a> <a href="#" class="prt_btn">Hire Me</a>
+								<br>
+								Especialización y certificación en la prevención e investigación de delitos informáticos y el cibercrimen, llevadas a cabo en distintos países. 
+								
+								<br>
+								<br>
+								He logrado aportar a mi país la experiencia y eficacia en materia de investigación criminal y en la persecución penal en delitos relacionados con el uso de las nuevas tecnologías, de los sistemas de la información y las comunicaciones.
+								</font>
+								<br><br>
+							<!-- <a href="#" class="prt_btn">Hoja de vida</a> <a href="#" class="prt_btn">Contactame</a> -->
+							<a href="#" class="prt_btn">Contactame</a>
 						</div>
 					</div>
 				</div>
