@@ -16,22 +16,25 @@ include_once 'encabezado.html';
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div class="prt_heading_wrapper_2">
 							<div class="prt_heading ">
-								<h1>About ME</h1>
+								<h1>Diego Teos</h1>
 								<div class="typed-strings">
-									<p>WHo AM i</p>
-									<p>Know more</p>
+									<p>Algo sobre</p>
+									<p>mi...</p>
 								</div>
 								<p class="typed"></p>
 							</div>
 						</div>
 						<div class="prt_about_details">
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have
-								suffered alteration in some form, by injected humour, or randomised words which don't
-								look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-								need to be sure there isn't anything embarrassing hidden in the middle of text. All the
-								Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-								making this the first true generator on the Internet. It uses a dictionary of over 200
-								Latin words, combined with a handful of model sentence structures.</p>
+							<p>Mas de 15 años laborados en materia de seguridad pública con especialización en investigación criminal, he desarrollado conocimientos y experiencias especializadas en la gestión, gerencia y abordaje de fenómenos criminales.
+
+								<br>
+								Promotor de la creación de la unidad de investigación de delitos informáticos en la Policía Nacional Civil en el año 2014.
+
+								<br>
+								Jefe de la Unidad de Investigación de Delitos Informáticos de la Policía Nacional Civil del 2015-2019.
+								<br>
+								Especialización y certificación en la prevención e investigación de delitos informáticos y el cibercrimen, llevadas a cabo en Guatemala y otras en países como Corea del Sur, Estados Unidos, España, Holanda, México, El Salvador, entre otros. He logrado aportar a mi país mi experiencia y eficacia en materia de investigación criminal y en la persecución penal en delitos relacionados con el uso de las nuevas tecnologías, de los sistemas de la información y las comunicaciones.
+							</p>
 							<a href="#" class="prt_btn">Download Resume</a> <a href="#" class="prt_btn">Hire Me</a>
 						</div>
 					</div>
@@ -116,7 +119,7 @@ include_once 'encabezado.html';
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
