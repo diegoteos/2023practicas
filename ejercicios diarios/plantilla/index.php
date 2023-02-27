@@ -51,8 +51,8 @@ include_once 'encabezado.html';
 						<div class="prt_heading">
 							<h1>Educación</h1>
 							<div class="typed-strings">
-								<p>learning</p>
-								<p>Reading</p>
+								<p>Información</p>
+								<p>academica</p>
 							</div>
 							<p class="typed"></p>
 						</div>
@@ -62,13 +62,12 @@ include_once 'encabezado.html';
 							<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
 								<div class="prt_about_learnbox_right">
 									<div class="prt_about_learnbox_year">
-										<h1>2004</h1>
+										<h1>2022</h1>
 									</div>
 									<div class="prt_about_learnbox_info">
-										<h4>Diploma In UI/UX Design</h4>
-										<span>New York</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
+										<h4>Maestria en seguridad informatica</h4>
+										<p>	<b>UMG de Guatemala</b></p>
+										<p>Conceptos y practicas enfocadas en el resguardo de los pilares de la seguridad de la información – Confidencialidad, Integridad y Disponibilidad- mediante la implementación de buenas prácticas y de las normativas internacionales. Estos conceptos deben ser aplicados dentro de las organizaciones a las personas, procesos y tecnología.</p>
 									</div>
 								</div>
 							</div>
