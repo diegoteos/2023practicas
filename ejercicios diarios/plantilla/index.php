@@ -32,15 +32,15 @@ include_once 'encabezado.html';
 								Cofundador y jefe de la Sección de Investigación de Delitos Informáticos dentro de la Policía Nacional Civil en 2014-2019.
 								<br>
 								<br>
-								Especialización y certificación en la prevención e investigación de delitos informáticos y el cibercrimen, llevadas a cabo en distintos países. 
-								
+								Especialización y certificación en la prevención e investigación de delitos informáticos y el cibercrimen, llevadas a cabo en distintos países.
+
 								<br>
 								<br>
 								He logrado aportar a mi país la experiencia y eficacia en materia de investigación criminal y en la persecución penal en delitos relacionados con el uso de las nuevas tecnologías, de los sistemas de la información y las comunicaciones.
-								</font>
-								<br><br>
+							</font>
+							<br><br>
 							<!-- <a href="#" class="prt_btn">Hoja de vida</a> <a href="#" class="prt_btn">Contactame</a> -->
-							<a href="#" class="prt_btn">Contactame</a>
+							<a href="contacto.php" class="prt_btn">Contactame</a>
 						</div>
 					</div>
 				</div>
@@ -62,68 +62,54 @@ include_once 'encabezado.html';
 							<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
 								<div class="prt_about_learnbox_right">
 									<div class="prt_about_learnbox_year">
-										<h1>2022</h1>
-									</div>
-									<div class="prt_about_learnbox_info">
-										<h4>Maestria en seguridad informatica</h4>
-										<p>	<b>UMG de Guatemala</b></p>
-										<p>Conceptos y practicas enfocadas en el resguardo de los pilares de la seguridad de la información – Confidencialidad, Integridad y Disponibilidad- mediante la implementación de buenas prácticas y de las normativas internacionales. Estos conceptos deben ser aplicados dentro de las organizaciones a las personas, procesos y tecnología.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_learnbox_left">
-									<div class="prt_about_learnbox_year">
-										<h1>2006</h1>
-									</div>
-									<div class="prt_about_learnbox_info">
-										<h4>Diploma In Web Design</h4>
-										<span>New York</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_learnbox_right">
-									<div class="prt_about_learnbox_year">
-										<h1>2008</h1>
-									</div>
-									<div class="prt_about_learnbox_info">
-										<h4>Diploma In UI/UX Design</h4>
-										<span>New York</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_learnbox_left">
-									<div class="prt_about_learnbox_year">
-										<h1>2010</h1>
-									</div>
-									<div class="prt_about_learnbox_info">
-										<h4>Diploma In Web Design</h4>
-										<span>New York</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_learnbox_right">
-									<div class="prt_about_learnbox_year">
 										<h1>2023</h1>
 									</div>
 									<div class="prt_about_learnbox_info">
-										<h4>Experto en chelas</h4>
-										<span>New York</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
+										<h4>Maestria en seguridad informatica</h4>
+										<p> <b>UMG de Guatemala</b></p>
+										<p>Conceptos y practicas enfocadas en el resguardo de los pilares de la seguridad de la información – Confidencialidad, Integridad y Disponibilidad- mediante la implementación de buenas prácticas y de estándares internacionales aplicables dentro de organizaciones o interesados en la implementación de un sistema de gestión de seguridad de la información lo cual debe involucrar a las personas, procesos y tecnologías.</p>
 									</div>
 								</div>
 							</div>
-
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="prt_about_learnbox_left">
+									<div class="prt_about_learnbox_year">
+										<h1>2020</h1>
+									</div>
+									<div class="prt_about_learnbox_info">
+										<h4>Ingenieria en Sistemas de Información y Ciencias de la Computación</h4>
+										<p> <b>UMG de Guatemala</b></p>
+										<ul>
+											<p>Integración de sistemas operativos, redes de computadoras, telecomunicaciones, hardware, bases de datos, aseguramiento de la calidad y técnicas de desarrollo de software.</p>
+											<p>Análisis, diseño y desarrollo de sistemas de información útiles a las empresas, aplicando conceptos gerenciales, ingeniería económica, estadística, calidad y procesos administrativos.</p>
+											<p>Realizar estudios de desempeño y uso de sistemas automatizados.</p>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
+								<div class="prt_about_learnbox_right">
+									<div class="prt_about_learnbox_year">
+										<h1>2004</h1>
+									</div>
+									<div class="prt_about_learnbox_info">
+										<h4>Bachiller en Ciencias y Letras</h4>
+										<p>Conocimientos en el uso de la tecnología y resolución de problemas
+											relacionados con las ciencias, las letras y la vida cotidiana..</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="prt_about_learnbox_left">
+									<div class="prt_about_learnbox_year">
+										<h1>2003</h1>
+									</div>
+									<div class="prt_about_learnbox_info">
+										<h4>Mecanografo Profesional</h4>
+										<p>Escritura, redacción y gestión documental.</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

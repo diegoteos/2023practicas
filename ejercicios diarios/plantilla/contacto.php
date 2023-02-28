@@ -6,27 +6,18 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta name="description" content="Portfolio">
-	<meta name="keywords"
-		content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
+	<meta name="keywords" content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
 	<meta name="author" content="hsoft">
 	<meta name="MobileOptimized" content="320">
 	<!--Srart Style -->
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/animate.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/fonts.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/magnific-popup.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css"
-		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/css/style.css">
 	<!-- Favicon Link -->
 	<!-- <link rel="shortcut icon" type="image/png"
 		href="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/images/header/favicon.png"> -->
@@ -35,10 +26,12 @@
 <body>
 
 	<!--Contact Wrapper Start-->
-	<div class="	">
+	<div class="">
 		<div class="prt_close_wrapper">
-			<img src="http://kamleshyadav.com/html/portfolio/html/bootstrap5/white_version_typed/images/header/right_arrow.png"
-				alt="Close" class="prt_close">
+			<br>
+			<div class="container">
+				<a href="index.php" class="prt_btn">Inicio</a>
+			</div>
 		</div>
 		<div class="container">
 			<div class="row">
@@ -64,26 +57,22 @@
 									<form>
 										<div class="row">
 											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-												<input type="text" name="first_name" placeholder="Your Name"
-													class="require">
+												<input type="text" name="first_name" placeholder="Your Name" class="require">
 											</div>
 											<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-												<input type="text" name="email" placeholder="Your Email" class="require"
-													data-valid="email" data-error="Email should be valid.">
+												<input type="text" name="email" placeholder="Your Email" class="require" data-valid="email" data-error="Email should be valid.">
 											</div>
 											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 												<input type="text" name="subject" placeholder="Subject" class="require">
 											</div>
 											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<textarea rows="4" name="message" placeholder="Message"
-													class="require"></textarea>
+												<textarea rows="4" name="message" placeholder="Message" class="require"></textarea>
 											</div>
 											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 												<div class="response"></div>
 											</div>
 											<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-												<button type="button" class="prt_btn submitForm"
-													form-type="contact">submit</button>
+												<button type="button" class="prt_btn submitForm" form-type="contact">submit</button>
 											</div>
 										</div>
 									</form>
@@ -94,9 +83,7 @@
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<div class="prt_contact_map">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.7149899484166!2d-92.46035748446522!3d33.534795052266986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862d89d84d550aef%3A0xc554ea1ecff51963!2s368+7th+%237%2C+Hampton%2C+AR+71744%2C+USA!5e0!3m2!1sen!2sin!4v1506497917270"
-							allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.7149899484166!2d-92.46035748446522!3d33.534795052266986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862d89d84d550aef%3A0xc554ea1ecff51963!2s368+7th+%237%2C+Hampton%2C+AR+71744%2C+USA!5e0!3m2!1sen!2sin!4v1506497917270" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="prt_contact_details">
