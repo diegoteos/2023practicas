@@ -10,7 +10,8 @@ include_once 'encabezado.html';
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div class="prt_about_img">
-							<img src="https://avatars.githubusercontent.com/u/22733769?v=4" alt="About">
+							<!-- <img src="https://avatars.githubusercontent.com/u/22733769?v=4" alt="About"> -->
+							<img src="foto.jpg" width: 100%; height: auto; alt="About">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
