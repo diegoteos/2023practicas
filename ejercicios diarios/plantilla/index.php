@@ -119,10 +119,10 @@ include_once 'encabezado.html';
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="prt_heading_wrapper">
 						<div class="prt_heading">
-							<h1>Experience</h1>
+							<h1>Experiencia</h1>
 							<div class="typed-strings">
-								<p>involvement</p>
-								<p>participation</p>
+								<p>Experiencia</p>
+								<p>laboral</p>
 							</div>
 							<p class="typed"></p>
 						</div>
