@@ -132,7 +132,7 @@ include_once 'encabezado.html';
 							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 								<div class="prt_about_experiencebox">
 									<div class="prt_about_experience_year">
-										<h1>2012</h1>
+										<h1>202 2</h1>
 										<h4>July to 2013 Sep</h4>
 									</div>
 									<div class="prt_about_experience_info">
