@@ -41,7 +41,8 @@ include_once 'encabezado.html';
 							</font>
 							<br><br>
 							<!-- <a href="#" class="prt_btn">Hoja de vida</a> <a href="#" class="prt_btn">Contactame</a> -->
-							<a href="contacto.php" class="prt_btn">Contactame</a>
+							<!-- <a href="contacto.php" class="prt_btn">Contactame</a> -->
+							<a href="#" class="prt_btn">Contactame</a>
 						</div>
 					</div>
 				</div>
@@ -121,8 +122,8 @@ include_once 'encabezado.html';
 						<div class="prt_heading">
 							<h1>Experiencia</h1>
 							<div class="typed-strings">
-								<p>Experiencia</p>
-								<p>laboral</p>
+								<p>Una pincelada</p>
+								<p></p>
 							</div>
 							<p class="typed"></p>
 						</div>
@@ -132,42 +133,13 @@ include_once 'encabezado.html';
 							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 								<div class="prt_about_experiencebox">
 									<div class="prt_about_experience_year">
-										<h1>202 2</h1>
-										<h4>July to 2013 Sep</h4>
+										<h1>2017</h1>
+										<h4>Octubre 2017</h4>
 									</div>
 									<div class="prt_about_experience_info">
-										<h4>Junior Ui/Ux Designer</h4>
-										<span>Amazon</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_experiencebox">
-									<div class="prt_about_experience_year">
-										<h1>2013</h1>
-										<h4>Oct to 2014 Dec</h4>
-									</div>
-									<div class="prt_about_experience_info">
-										<h4>Senior Ui/Ux Designer</h4>
-										<span>Adobe</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-								<div class="prt_about_experiencebox">
-									<div class="prt_about_experience_year">
-										<h1>2015</h1>
-										<h4>Jun to 2015 Mar</h4>
-									</div>
-									<div class="prt_about_experience_info">
-										<h4>Senior Ui/Ux Designer</h4>
-										<span>Google</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
+										<h4>Certificación Interpol</h4>
+										<span>ICSE</span>
+										<p>Acceso, administración, alimentación, retroalimentación y consultas de la Base de Datos Internacional Contra la Explotación Sexual de Niños (ICSE).</p>
 									</div>
 								</div>
 							</div>
@@ -175,13 +147,38 @@ include_once 'encabezado.html';
 								<div class="prt_about_experiencebox">
 									<div class="prt_about_experience_year">
 										<h1>2016</h1>
-										<h4>Apr to Present</h4>
+										<h4>Noviembre 2016 (Paises Bajos)</h4>
 									</div>
 									<div class="prt_about_experience_info">
-										<h4>Lead Ui/Ux Designer</h4>
-										<span>Google</span>
-										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-											doloremque laudantium, totam rem aperiam.</p>
+										<h4>Certificación de "THE NATIONAL HIGH TECH CRIME UNIT” Holanda</h4>
+										<span>Lucha contra el cibercrimen II</span>
+										<p>Investigación de delitos cometidos con el uso de las nuevas tecnologias de la información y las comunicaciones.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="prt_about_experiencebox">
+									<div class="prt_about_experience_year">
+										<h1>2016</h1>
+										<h4>Julio 2016</h4>
+									</div>
+									<div class="prt_about_experience_info">
+										<h4>Certificación de KNPA DE LA REPÚBLICA DE COREA DEL SUR</h4>
+										<span>Análisis y mejoramiento de imagenes en CCTV</span>
+										<p>Uso de herramienta forense para el analisis y mejoramiento de imagenes en CCTV en procesos de investigación criminal.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<div class="prt_about_experiencebox">
+									<div class="prt_about_experience_year">
+										<h1>2015</h1>
+										<h4>Mayo 2015</h4>
+									</div>
+									<div class="prt_about_experience_info">
+										<h4>Certificación de "KOREAN NATIONAL POLICE AGENCY" DE COREA DEL SUR</h4>
+										<span>Digital Forensic Course of High Class.</span>
+										<p>Investigación, gestion de la investigacion en incidentes ciberneticos y tecnicas de investigacion forenses con herramientas reconocidas y avaladas de uso comercial.</p>
 									</div>
 								</div>
 							</div>
