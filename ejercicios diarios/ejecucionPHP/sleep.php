@@ -11,4 +11,15 @@ echo date('h:i:s') . " el script se ejecuto por $tiempo ". "\n";
 
 echo '<br>';
 
-sleep(5) : header("location: index.php") ? 2;
+
+// displaying time
+echo date('h:i:s')."\n" ;
+   
+// using rand() function to randomly choose
+// a value and delay execution of the script
+sleep(rand(1, 5));
+   
+// displaying time again
+echo date('h:i:s');
+  
+?>
