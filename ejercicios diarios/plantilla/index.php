@@ -42,7 +42,7 @@ include_once 'encabezado.html';
 							<br><br>
 							<!-- <a href="#" class="prt_btn">Hoja de vida</a> <a href="#" class="prt_btn">Contactame</a> -->
 							<!-- <a href="contacto.php" class="prt_btn">Contactame</a> -->
-							<a href="#" class="prt_btn">Contactame</a>
+							<a href="contacto.php" class="prt_btn">Contactame</a>
 						</div>
 					</div>
 				</div>

@@ -61,27 +61,27 @@ include_once 'encabezado.html';
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
 					<div class="prt_contact_map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.7149899484166!2d-92.46035748446522!3d33.534795052266986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862d89d84d550aef%3A0xc554ea1ecff51963!2s368+7th+%237%2C+Hampton%2C+AR+71744%2C+USA!5e0!3m2!1sen!2sin!4v1506497917270" allowfullscreen></iframe>
+						<iframe src="" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="prt_contact_details">
 					<div class="row">
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							<div class="prt_contact_details_box details_box1">
-								<h4>Phone</h4>
-								<p>+1-202-555-0125<br>01-202-555-0125</p>
+								<h4>Teléfono</h4>
+								<p>+502 xxxx-xxxx<br>+502 XXXX - XXXX</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							<div class="prt_contact_details_box details_box2">
-								<h4>Email</h4>
-								<p><a href="#">name@yourmail.com</a><br><a href="#">mail@yourname.com</a></p>
+								<h4>Correo</h4>
+								<p><a href="#">Por favor llene el formulario de contacto dejando sus datos de contacto.</a><br></p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							<div class="prt_contact_details_box details_box3">
-								<h4>Address</h4>
-								<p>71 Pilgrim Avenue<br>Chevy Chase, MD 20815</p>
+								<h4>Dirección</h4>
+								<p>Ciudad de Guatemala<br>Centro America</p>
 							</div>
 						</div>
 					</div>
