@@ -6,3 +6,4 @@ $cadenalimpia = preg_replace("[\n|\r|\n\r]", "", $cadena);
 
 
 echo $cadenalimpia;
+
