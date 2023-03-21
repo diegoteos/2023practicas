@@ -55,3 +55,4 @@ Bienvenido!
 <?php if (isset($_GET['msg'])) { echo "<font color=\"red\"><h3 align=\"center\"> $_GET[msg] </h3></font>"; } ?>
 </body>
 </html>
+
