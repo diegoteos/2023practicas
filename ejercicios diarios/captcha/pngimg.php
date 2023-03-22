@@ -11,4 +11,4 @@ ImageString ($img_handle, 5, 20, 13, $rno, $color);
 ImagePng ($img_handle);
 ImageDestroy ($img_handle);
 
-?>
+?> 
