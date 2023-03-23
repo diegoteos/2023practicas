@@ -47,7 +47,7 @@ Bienvenido!
 </textarea><br>
 <br><b>Codigo de la Imagen:</b><br>
 <input name="user_code" type="text" size="25">  
-<img src="pngimg.php" align="middle"><br><br>
+<img src="bg1.PNG" align="middle"><br><br>
 <input type="submit" name="Submit" value="Send">
 <input type="reset" value="Borrar">
 </form>
