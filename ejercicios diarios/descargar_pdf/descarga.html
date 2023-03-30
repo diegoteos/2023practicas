@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        fetch('https://legal.dca.gob.gt//Scripts/pdfjs2/web/viewer.html?file=%2FContent%2FPDF%2FDocumentoDelDiaPdf.pdf')
+            .then(response => response.blob())
+            .then(blob => {
+                const url = window.URL.createObjectURL(new Blob([blob]));
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'archivo.pdf';
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+            });
+
+    </script>
+</body>
+
+</html>
