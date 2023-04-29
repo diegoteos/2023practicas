@@ -1,0 +1,1 @@
+para empezar pensar
